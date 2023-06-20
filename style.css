@@ -1,0 +1,112 @@
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url(https://fonts.google.com/specimen/Montserrat);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  color: hsl(229, 10%, 43%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(30, 38%, 92%);
+}
+.both-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 480px;
+  width: 300px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.last-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 480px;
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: hsl(0, 0%, 100%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.preview {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Montserrat;
+  font-family: Fraunces;
+  letter-spacing: 10px;
+  color: rgb(122, 117, 117);
+  font-size: 16px;
+}
+
+.parfum {
+  font-family: Fraunces;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+}
+
+.content {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  word-spacing: 5px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.first-price {
+  color: hsl(158, 36%, 37%);
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+.cart {
+  margin-left: 10px;
+}
+
+.last-price {
+  text-decoration: line-through;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
